@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+	
+
+@media screen and (min-width: 1025px) and (max-width:1440px){
+			.wrap{width: 90%; background: red; height: 400px;}
+		}
+
+@media screen and (min-width: 901px) and (max-width:1024px) {
+			.wrap{width: 70%; background: red; height: 400px;}
+			}
+		
+@media screen and (min-width: 600px) and (max-width: 900px){
+			.wrap{width: 70%; background: blue; height: 400px;}
+	}
+
+@media screen and (max-width:599px) {
+	.wrap{width: 20%; background: gray; height: 400px;}
+	}
+
+

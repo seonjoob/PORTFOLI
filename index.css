@@ -1,0 +1,96 @@
+ @charset "utf-8";
+
+body{margin:0 auto; font-family:'Roboto Condensed', '맑은 고딕', dotum, sans-serif; font-size: 104px; font-weight: 900; cursor: pointer;}
+a{color: #000;}
+span.nod{opacity:0; border:10px solid orange; width:50px; left: 0; top:297px; position: absolute; z-index: 999; }
+span.bord{opacity:0; border:10px solid red; width:50px; left: 490px; top:307px; position: absolute; z-index: 999; }
+span.bord2{opacity:0; border:10px solid #a117db; width:50px; left: 0; top:422px; position: absolute; z-index: 999; }
+span.bord3{opacity:0; border:10px solid dodgerblue; width:50px; left: 745px; top:422px; position: absolute; z-index: 999; }
+span.bord4{opacity:0; border:10px solid hotpink; width:50px; left: 0; top:542px; position: absolute; z-index: 999; }
+span.bord5{opacity:0; border:10px solid seagreen; width:50px; left: 0; top:662px; position: absolute; z-index: 999; }
+
+
+img.logo{position:absolute; left:0; top:50px; width:64px; height: 64px;}
+img.logo:hover{transform:rotate(45deg); }
+img.name{position: absolute; left:68px; top:50px; width: 207px; height: 64px; }
+
+
+span#box2{ background-color: #fff; width: 217px; height:64px;
+ position: absolute; top:52px; left:60px; opacity: 1;}
+
+
+span.one{position: absolute; top:202px; left:0;  width: 405px;  z-index: 99;}
+span.one:hover{position: absolute; top:192px; left:0; transition: .2s;}
+span.two{position: absolute; top:202px; left:490px;
+}
+span.two:hover{position: absolute; top:192px; left:490px;transition: .2s;
+}
+span.one1{position: absolute; top:322px; left:0;
+}
+span.one1:hover{position: absolute; top:312px; left:0;transition: .2s; }
+span.two2{position: absolute; top:322px; left:745px;
+}
+span.two2:hover{position: absolute; top:312px; left:745px;transition: .2s; }
+
+span.thr{position: absolute; top:442px; left:0;
+}
+span.thr:hover{position: absolute; top:432px; left:0;transition: .2s; }
+
+span.four{position: absolute; top:562px; left:0;
+}
+span.four:hover{position: absolute; top:552px; left:0;transition: .2s; }
+
+
+p.pro{font-weight: 400; font-size: 14px; }
+span#pro{position: absolute; left:0; top:812px;
+font-size: 20px; color: #878787; }
+span#span1{position: absolute; left:0; top:852px; font-weight: 300;
+color: #909090;}
+span#name{position: absolute; left:130px; top:852px; font-size: 14px; font-weight: 300; color: #909090;
+}
+span#span2{position: absolute; left:0; top:882px; font-size: 14px; font-weight: 300; color: #909090;
+}
+span.pho{position: absolute; left:130px; top:882px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span#span3{position: absolute; left:0; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.span4{position: absolute; left:130px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.left{position: absolute; left:190px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.span2{position: absolute; left:390px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.left2{position: absolute; left:425px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.span3{position: absolute; left:560px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+span.left3{position: absolute; left:600px; top:912px; font-size: 14px; font-weight: 300;color: #909090;
+}
+
+.auto {
+	font-size: 40px;
+	position:absolute;
+	left:954px; top:900px;
+	color:#777; width:300px;
+	transition:.7s;/* 화살표 뒤로 가는 속도 */
+}
+.auto h6 {
+	position:absolute;
+	right:100px; top:0;
+}
+ .auto h6:nth-child(1) { animation:move 2.5s infinite; }
+ .auto h6:nth-child(2) { opacity: 0; animation:move 2.5s infinite .7s; }
+/* animation:이름 진행시간 반복횟수 대기시간 */
+span#ck{position: absolute; left: 910px; top: 910px; color: #bdbdbe; font-size: 18px; font-weight: normal;}
+@keyframes move {
+	0% {
+		transform:scale(1);
+		opacity:1;
+		left:0;
+	}
+	100% {
+		transform:scale(1.5);
+		opacity:0;
+		left:200px;
+	}
+}

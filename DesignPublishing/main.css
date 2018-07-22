@@ -1,0 +1,90 @@
+ @charset "utf-8";
+
+	body{background: url(images/bg2.png) no-repeat 0 0;  }
+/*header*/
+	header{position: relative; margin: 0 auto; text-align: center; width: 100%; }
+	img#main{width: 100%; }
+	ul.one{ position: absolute; top:66px; right:250px; 
+	}
+	a{color: #defcc8;}
+	li.one{margin-left: 51px; float: left; font-family: 'Roboto', sans-serif; font-size: 28px;
+	 font-weight: 400;  padding-bottom: 3px; text-shadow: 3px 1px 8px #30304b; 
+	}
+	li.one:hover{text-shadow: 5px 4px 2px #30304b;  transition: .2s;}
+	#logo{position: absolute; top:36px; left:249px;  width:315px; height: 140px; 
+		background-image: url(images/gelato223.gif); 
+		animation:background-image-change .5s ; }
+
+	@keyframes background-image-change{	
+		50%{background-image: url(imgaes/gelato.jpg)}
+}
+
+
+	
+/*contents-first*/
+	div.wrap{width: 1200px; margin:0 auto; overflow: hidden;}
+	p#txt{margin-bottom: 35px;}
+	#art1{float: left;  width:577px; height:54.57%/*764px*/; margin-top:266px/*246px*/; display: none; }
+	#menu{border:2.5px solid #9b96b9; width: 200px; height: 60px; border-radius: 50px;
+	display: none; text-align: center; line-height: 62px; font-size: 17px; float: left; margin-top: 89px; color: #8a89a2;
+		font-family: 'Nanum Gothic', sans-serif; letter-spacing: 1px; cursor: pointer;  }
+	#menu:hover{background: #9b96b9; width: 200px; height: 60px; color: #fff; }
+
+	.img1{width:575px ; height:633px ; float: right;  margin-top:170px; }
+	/*.menu{float: left; width: 262px; height: 71px; border-radius: 50px; margin-top: 109px; }*/
+
+/*second*/
+	.img2{ width:573px ; height:680px; float: left; 
+	 margin-top:150px; clear: both; }
+	.mini{width: 112px; height: 137px; float: right; margin-right: 236px; display: none;}
+	#art2{text-align: center; float: right; margin-top: 333px; width: 573px; }
+	p.txt2{clear: both; display: none;}
+	#img{width: 1200px; height: 509px; margin-top: 165px; float: left; clear: both;}
+	.img3{width: 33.4%; height: 509px;  background: #e73781; float: left;  }
+	.img4{width: 33.3%; height: 509px;  background: #bb7be3; float: left;}
+	.img5{width: 33.3%; height: 509px;  background: #419fd4; float: left;}
+/*third*/
+	.img6{width:576px; height: 721px;  margin-top: 158px;  float: left;  }
+	.img7{width:573px; height: 370px; margin-top: 158px; float: right; }
+	#art3{ float: right;  width:573px;   margin-top:55px; margin-left: 10px;  }
+	p.txt3{float: left; clear: both;}
+	#menu2{border:2.5px solid #9b96b9; width: 200px; height: 60px; border-radius: 50px; text-align: center;
+	 line-height: 62px; font-size: 17px; float: left; margin-top: 50px; color: #8a89a2;
+	  cursor: pointer;	font-family: 'Nanum Gothic', sans-serif; letter-spacing: 1px;}
+	#menu2:hover{background: #9b96b9; width: 200px; height: 60px; color: #fff;  }
+/*fourth*/
+	#art4{ float: left;  width:559px;   margin-top:148px; clear: both; text-align: center;}
+	p.txt4{float: left; width: 559px; }
+
+	#art5{float: right; widows: 571px; margin-top: 108px;}
+	.img8{width:571px; height: 364px; }
+/*fifth*/
+	#art6{width:1200px; text-align: center; float: right; clear: both; margin-top: 220px;}
+.box{width: 1200px; height: 480px; float: left; margin-top: 30px; }
+/*.ulbox{width: 1200px; height: 480px;  float: left; }*/
+
+.p{float: left; width: 240px; height: 240px;}
+.box .p a{display: block; width: 240px; height: 240px;}
+/*div.lib_bg{position: absolute; top: 4800px; left: 190px; width: 80%; height: 100%;
+background: red; opacity: 0; }
+div.lib{position: absolute; top: 5000px; left: 425px; width: 55%; height: 65%;
+background: gold; display: none; }
+*/
+/*footer*/
+footer{width:100%; height: 270px; background-color: #419fd4;  clear: both; margin-top: 200px;
+	 position: relative;  }
+.container{width: 1400px; margin:0 auto;}
+p.two{line-height: 230px; margin-top: 30px;
+ font-family: 'Allura', cursive; font-size: 70px; color: #fff; float: left;}
+.sns{margin-top: 110px;  float: left; margin-left: 45px;}
+.sns a{width:50px; height: 21px;}
+.sns1{ width: 62px; height:62px; padding-right: 15px; }
+.sns2{ width: 62px; height: 62px;padding-right: 15px; }
+.sns3{  width: 62px; height: 62px; padding-right: 15px; }
+
+.box1{width: 665px; height: 75px; background: #fff; text-align: left; float: right; margin-top: 105px; right: 0;    }
+input{width:455px; height: 73px; border:none; float: left; background-color: #fff; text-indent: 30px; font-size: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; line-height: 73px;  outline: none;}
+input::-webkit-input-placeholder{color: #0488e5;}
+button{width: 200px; height: 66px; background: #419fd4; line-height: 51px; 
+	outline: none; border:none; text-align: center; cursor: pointer;
+ font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 20px;  color: #fff; float: right; margin-top: 4px; margin-right: 5px; }

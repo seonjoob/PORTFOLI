@@ -1,0 +1,121 @@
+ @charset "utf-8";
+
+body{/*background: #ffda53;*/ ; color:#0e3441; }
+img.logo{position:absolute; left:0; top:10px; width:64px;}
+img.logo:hover{transform:rotate(45deg); }
+img.name{position: absolute; left:68px; top:50px; width: 207px; height: 64px; display: none;}
+
+a{color:#0e3441;}
+p.comp{
+	 text-transform: uppercase; font-size: 21px; 
+	 width: 786px; 
+}
+span.in{padding: 20px;}
+span.ab{font-weight: 300;}
+span.com{/*position: absolute; left: 20px; top:308px; z-index: 999;*/ font-weight: 500; font-size: 21px; text-transform: uppercase; float:left; padding: 0;}
+div.strong{float: left; clear:both; padding:38px 0 0 0; width:100px; height: 120px; }
+span#pho{width:180px;  margin:41px 0 0 70px;
+ float:left; font-size: 14px;  }
+ span#pho2{width:180px;   margin:5px 0 0  70px;
+ float:left; font-size: 14px;  }
+ span#pho3{width:180px;   margin:5px 0 0  70px;
+ float:left; font-size: 14px;  }
+  span#pho4{width:180px;   margin:7px 0 0  70px;
+ float:left; font-size: 14px;  }
+
+
+span#mark1{width:180px;  margin:43px 0 0 10px;
+ float:left; font-size: 14px; }
+ span#mark2{width:180px;   margin:7px 0 0  10px;
+ float:left; font-size: 14px;  }
+  span#mark3{width:180px;   margin:7px 0 0  10px;
+ float:left; font-size: 14px;  }
+  span#mark4{width:180px;   margin:7px 0 0  10px;
+ float:left; font-size: 14px;  }
+
+span.per{ /* position: absolute; left: 20px; top:724px;*/ font-size: 21px; font-weight: 500; text-transform: uppercase; float: left;}
+.mark{float: left; clear: both; padding: 16px 0 0 0; width: 150px; height: 200px;}
+mark{text-transform: capitalize;color:#0e3441; font-weight: 700;}
+mark:nth-of-type(1){/*position: absolute; left: 20px; top:774px*/ float: left; padding: 28px 0 0 0; background: transparent; }
+mark:nth-of-type(2){/*position: absolute; left:20px; top:794px;*/float: left;  clear: both;padding: 14px 0 0 0; background: transparent; }
+mark:nth-of-type(3){/*position: absolute; left:20px; top:814px*/float: left; padding: 14px 0 0 0; background: transparent; }
+mark:nth-of-type(4){/*position: absolute; left:20px; top:834px;*/float: left; padding: 14px 0 0 0; background: transparent; }
+
+strong.st3{ /*position: absolute; left: 20px; top:358px;*/padding: 2px 0 14px 0;  font-size: 16px; font-weight: 700;  text-transform: capitalize; float:left;}
+strong.st4{ /*position: absolute; left: 20px; top:378px;*/ float:left; padding: 0; font-size: 16px; font-weight: 700; text-transform: capitalize;}
+strong.st1{ /*position: absolute; left: 20px; top:398px;*/float:left; padding: 14px 0 0 0; font-size: 16px;font-weight: 700; text-transform: capitalize;}
+strong.st2{ /*position: absolute; left: 20px; top:418px;*/float:left; padding:14px 0 0 0; font-size: 16px;font-weight: 700; text-transform: capitalize;}
+
+span.edu{  font-size: 21px; font-weight: 500;
+ /*position: absolute; left: 453px; top:308px; */
+	 }
+em{font-style: normal;  font-size: 14px; }
+em:nth-child(1){/*position: absolute; left: 453px; top:358px;*/ float: left; padding: 38px 0 0 0; font-weight: 700; font-size: 16px;}
+em:nth-child(2){/*position: absolute; left: 553px; top:358px;*/float: left; padding: 38px 0 0 20px; font-weight: 700;}
+em:nth-child(3){/*position: absolute; left: 553px; top:378px;*/ float: left; clear:both; padding: 4px 0 0 100px; font-size: 13px;}
+
+em:nth-child(4){/*position: absolute; left: 453px; top:408px;*/ float: left; clear:both; padding: 16px 0 0 0; font-weight: 700;  font-size: 16px;}
+em:nth-child(5){/*position: absolute; left: 553px; top:408px;*/ float: left; padding: 16px 0 0 20px; font-weight: 700;}
+em:nth-child(6){/*position: absolute; left: 553px; top:428px;*/ float: left;clear:both; padding: 4px 0 0 100px; font-size: 13px;}
+
+em:nth-child(7){/*position: absolute; left: 495px; top:458px;*/ float: left;clear:both; padding: 16px 0 0 43px; font-weight: 700; font-size: 16px;}
+em:nth-child(8){/*position: absolute; left: 553px; top:458px;*/ float: left; padding: 16px 0 0 20px;  font-weight: 700;}
+em:nth-child(9){/*position: absolute; left: 553px; top:498px;*/ float: left; padding: 4px 0 0 100px;  font-size: 13px;}
+
+em:nth-child(10){/*position: absolute; left: 495px; top:528px;*/float: left;clear:both; padding: 16px 0 0 43px;  font-weight: 700;  font-size: 16px;}
+em:nth-child(11){/*position: absolute; left: 553px; top:528px;*/ float: left; padding: 16px 0 0 20px; font-weight: 700; }
+em:nth-child(12){/*position: absolute; left: 553px; top:548px;*/ float: left;clear:both; padding: 4px 0 0 100px; font-size: 13px; }
+
+
+
+i.fa-mobile-alt{margin-right: 10px;}
+i.fa-laptop{margin-right: 10px;}
+i.fa-user-alt{margin-right: 10px;}
+i.fa-graduation-cap{margin-right: 10px;}
+i.fa-edit{margin-right: 10px;}
+i.fa-globe{margin-right: 10px;}
+
+
+
+span.cert{ text-transform: uppercase; font-weight: 500; 
+	/*position: absolute; left:373px; top:724px;*/  font-size: 21px;  }
+
+div.cert1{ font-weight: 700;}
+span.cert1{/*position: absolute; left:395px; top:774px;*/ float: left; padding: 38px 0 0 0;}
+span.cert2{/*position: absolute; left:395px; top:794px;*/ float: left; clear:both; padding: 16px 0 0 0;}
+span.cert3{/*position: absolute; left:395px; top:814px;*/ float: left; clear: both; padding: 16px 0 0 0;}
+span.cert4{/*position: absolute; left:395px; top:834px;*/ float: left; clear: both;padding: 16px 0 0 0;}
+span.cert5{/*position: absolute; left:395px; top:854px;*/ float: left; clear: both;padding: 16px 0 0 0;}
+
+span#cert6{/*position: absolute; left:473px; top:774px;*/ float: left; padding: 40px 0 0 20px; font-weight: 500; font-size: 14px;}
+span#cert7{/*position: absolute; left:473px; top:794px;*/float: left;  padding: 16px 0 0 20px; font-weight: 500; font-size: 14px;}
+span#cert8{/*{position: absolute; left:473px; top:814px;*/float: left; padding: 16px 0 0 20px; font-weight: 500; font-size: 14px;}
+span#cert9{/*position: absolute; left:473px; top:834px;*/float: left; padding: 16px 0 0 20px; font-weight: 500; font-size: 14px;}
+span#cert10{/*position: absolute; left:473px; top:854px;*/float: left; padding: 16px 0 0 20px; font-weight: 500; font-size: 14px;}
+
+
+span.lan{/*position: absolute;*/  text-transform: uppercase; 
+	/*left:0; top:0;*/ font-weight: 500; font-size: 21px;  }
+.em{float: left;  width: 100px; height: 200px;}
+span#em1{width:180px;  margin:38px 0 0 20px; float:left; font-size: 14px; }
+ span#em2{width:180px;   margin:6px 0 0 20px; float:left; font-size: 14px;  }
+  span#em3{width:180px;   margin:6px 0 0 20px; float:left; font-size: 14px;  }
+ 
+em#ko{padding: 38px 0 0 0; float: left;/*position: absolute; left: 906px; top:358px;*/ font-weight: 700; font-size: 16px;}
+em#nat{float: left; padding:40px 0 0 4px;/*position: absolute; left: 966px; top:358px;*/ font-weight: 400; font-size:12px; }
+em#ch{float: left; clear: both; padding: 13px 0 0 0; /*position: absolute;  left: 906px; top:378px;*/ font-weight: 700; font-size: 16px;}
+em#en{float: left;  clear: both;padding: 13px 0 0 0; /*position: absolute; left: 906px; top:398px;*/ font-weight: 700; font-size: 16px;}
+
+
+span.cont{/*position: absolute; left:906px; top:724px;*/float: left; font-size: 21px; font-weight: 500; 
+	text-transform: uppercase; }
+.contac{float: left; clear: both;  width: 70px; height: 200px; text-align: left;}
+
+#em{/*position: absolute; left:906px; top:774px;*/ float: left;  padding: 38px 0 0 0; font-weight: 700;}
+#te{/*osition: absolute; left:927px; top:794px;*/ float: left; clear: both; padding: 16px 0 0 0; font-weight: 700;}
+#ad{/*position: absolute; left:921px; top:814px;*/float: left; clear: both;  padding: 16px 0 0 0;font-weight: 700;}
+div.ema{width: 190px; float: left; margin-top: 38px; margin-left: 10px;}
+span#ema{/*position: absolute; left:976px; top:774px;*/  padding: 38px 0 0 0; font-size: 14px;}
+span#tel{/*position: absolute; left:976px; top:794px;*/float: left;clear: both; padding: 17px 0 0 0; font-size: 14px; }
+span#ad2{/*position: absolute; left:976px; top:814px;*/float: left; clear: both; padding: 18px 0 0 0; font-size: 14px;}
+

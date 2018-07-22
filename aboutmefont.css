@@ -1,0 +1,20 @@
+ @charset "utf-8";
+
+@charset "utf-8";
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Allura', cursive;
+font-family: 'Alex Brush', cursive;
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Nanum+Gothic:400,700|Roboto:300,400,500,700,900');
+
+*{margin: 0; padding: 0;}
+body{font-family:'Roboto', sans-serif; font-size: 16px;
+	width:1900px; font-weight: 400;}
+div#wrap{width: 1200px;   position: relative; margin: 0 auto;}
+
+p#menu{width: 600px; float:left; margin-top:52px;  font-size: 24px; font-weight: 300;}
+strong{ padding: 30px; font-weight: 500;}
+p#pt{ float:right; width:600px; text-align:right;  margin-top:52px; font-size: 24px; font-weight: 700;}

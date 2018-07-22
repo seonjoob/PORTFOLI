@@ -1,0 +1,23 @@
+ @charset "utf-8";
+div.box1{position: absolute;  left: 20px; top:308px; width:370px; height:250px; /*background:#ffda53;*/ border-right: none; 
+ }
+
+div.box2{position: absolute; left: 20px; top:664px; width:370px; height:250px; /*background:#ffda53;*/ border-right: none; 
+ }
+
+div.box3{position: absolute; left: 443px; top:308px; width:370px; height:250px; /*background:#ffda53;*/ border-right: none;
+ }
+div.box4{position: absolute; left: 443px; top:664px; width:370px; height:250px; /*background:#ffda53;*/ border-right: none;  }
+
+div.box5{position: absolute; left: 866px; top:308px; width:370px; height:250px;/* background:#ffda53;*/ border-right: none;  }
+
+div.box6{position: absolute; left: 866px; top:664px; width:370px; height:250px; /*background:#ffda53; */border-right: none;  }
+
+
+i.fa-circle{padding-right: 2px; float: left; margin: 0 0 9px 0;}
+i.fa-circle2{ float: left; clear: both; margin: 0;}
+i.fa-circle3{float: left; clear: both;margin: 8px 0 0 0;}
+i.fa-circle4{float: left; clear: both;margin: 9px 0 0 0;}
+
+.prof{clear:both; float: left; padding-top:85px; 
+	font-size: 26px; font-weight: 500;}
