@@ -3,10 +3,14 @@
 font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Allura', cursive;
 font-family: 'Alex Brush', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Cormorant Unicase', serif;
+
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Nanum+Gothic:400,700|Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Cormorant+Unicase:400,500|Nanum+Gothic:400,700|Oswald:300,400,500|Poppins:300,400,500|Roboto:300,400,500,700,900');
 body{font-family: 'Roboto', sans-serif; font-size: 15px; text-align: center; font-weight: 400;}
 
 

@@ -5,10 +5,10 @@ div.box1{position: absolute;  left: 20px; top:308px; width:370px; height:250px; 
 div.box2{position: absolute; left: 20px; top:664px; width:370px; height:250px; /*background:#ffda53;*/ border-right: none; 
  }
 
-div.box3{position: absolute; left: 443px; top:308px; width:370px; height:250px; /*background:#ffda53;*/ border-right: none;
- }
-div.box4{position: absolute; left: 443px; top:664px; width:370px; height:250px; /*background:#ffda53;*/ border-right: none;  }
-
+div.box3{position: absolute; left: 423px; top:308px; width:370px; height:530px; 
+	/*background:#ffda53;*/ border:2px solid #0e3441; box-shadow: -3px -3px 28px 3px #d0cece inset;}
+.box3 p{font-size: 38px; font-family: 'Alex Brush', cursive; position: absolute; bottom: 60px; left:75px; }
+.box3 img{position: absolute; left:60px; top:50px; width: 250px; height: 350px;}
 div.box5{position: absolute; left: 866px; top:308px; width:370px; height:250px;/* background:#ffda53;*/ border-right: none;  }
 
 div.box6{position: absolute; left: 866px; top:664px; width:370px; height:250px; /*background:#ffda53; */border-right: none;  }
