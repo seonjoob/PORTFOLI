@@ -1,2 +1,2 @@
 # PORTFOLI
-https://github.com/seonjoob/PORTFOLI/index.html
+https://github.com/seonjoob/PORTFOLIO/PORTFOLI/index.html
