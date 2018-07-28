@@ -9,7 +9,13 @@ font-family: 'Cormorant Unicase', serif;
 
 */
 
-
+@font-face {
+ font-family: 'DeibiRegular';
+ src: url('deibi-webfont.eot');
+ src: url('deibi-webfont.eot?#iefix') format('embedded-opentype'), url('deibi-webfont.woff') format('woff'), url('deibi-webfont.ttf') format('truetype'), url('deibi-webfont.svg#DeibiRegular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Cormorant+Unicase:400,500|Nanum+Gothic:400,700|Oswald:300,400,500|Poppins:300,400,500|Roboto:300,400,500,700,900');
 body{font-family: 'Roboto', sans-serif; font-size: 15px; text-align: center; font-weight: 400;}
 

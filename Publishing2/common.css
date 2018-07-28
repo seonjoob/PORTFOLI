@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body {text-align: left; font-size: 20px; font-size: 18px; font-weight: 500; line-height: 1.5;}
+body {text-align: left; font-size: 20px; font-size: 18px; font-weight:500 ; line-height: 1.5;}
 
 .wrapper{width: 100%; z-index: 9;  }
 /*헤더*/
@@ -21,6 +21,7 @@ header{position: fixed; top: 0; left: 0; right: 0; margin: auto; width: 100%;
  .sear a{width: 24px; height: 20px; display: block;}
  .hea a{width: 18px; height: 18px;}
 #sear{width: 24px; height: 20px; padding-top: 0; padding-right: 10px; }
+#sear2{width: 24px; height: 20px; padding-top: 0; padding-right: 10px; }
 #ht{width: 18px; height: 18px; padding-top: -10px; padding-left: 10px;}
 .log{position: absolute; top:40px; left: 0; right: 0; margin: auto; width: 168px; height: 45px;}
 
@@ -32,7 +33,7 @@ nav.one { text-align: center;  margin:auto; position: fixed; top:99px; left: 0; 
 .gnb { top:0; left: 0; right: 0; margin:auto; width:840px; overflow: hidden; z-index: 999; position: relative; background: #000;  
 }
 .gnb a{color: #fff; font-weight: 400; font-size: 13px; letter-spacing: 1px;} 
-.sale{color:red; }
+
 .gnb > li {  width:120px; height: 30px; float: left; line-height: 30px; font-size: 14px; text-transform: uppercase; }
 .gnb > li:hover{  width:120px; height: 30px; float: left; line-height: 30px; font-size: 14px; text-transform: uppercase; text-decoration: underline;}
 
@@ -80,7 +81,8 @@ text-decoration-color: #999;}
 .gnb2 { top:5px; left: 0; right: 0; margin:auto; width:840px; overflow: hidden; z-index: 999; position: relative; background: #000;  
 }
 .gnb2 a{color: #fff; font-weight: 400; font-size: 13px; letter-spacing: 1px;} 
-#sale{color:red; } #salee{color: red;}
+#sale{color:red; }
+#salee{color: red;}
 .gnb2 > li {  width:120px; height: 30px; float: left; line-height: 30px; font-size: 14px; text-transform: uppercase; }
 .gnb2 > li:hover{  width:120px; height: 30px; float: left; line-height: 30px; font-size: 14px; text-transform: uppercase; text-decoration: underline;}
 

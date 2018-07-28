@@ -32,6 +32,6 @@ section.third div{width: 290px/*290/1238*/; height: 404px; margin-bottom: 148px;
 section.third h2{margin-bottom: 20px; text-align:center; clear: both; font-size: 20px; }
 section.third p{font-size: 12px; text-align: left; padding-top: 10px;  }
 section.third span{color: #777; }
-section.third img{ width: 290px; height: 290px; margin-top: 10px; opacity: 1; }
-section.third img:hover{ opacity: .7; }
+section.third img{ width: 290px; height: 290px; margin-top: 10px; }
+
 section.third div:hover img,section.third div:hover p{ text-decoration: underline; cursor: pointer;}
